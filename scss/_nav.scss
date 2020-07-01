@@ -57,15 +57,22 @@
           &>div{
               display: flex;
               z-index: 100;
+
           }
       }
+
+
+  }
+  & li:last-child{
+    &>div{
+      right: 0;
+    }
   }
     }
 
     &-extend{
         display: none;
         position: absolute;
-       left: 0;
        top: 4rem;
        background-color: #587e8c96;
        border-radius: 5px;
@@ -81,11 +88,12 @@
                width: 100%;
                margin: 0.5rem 0;
                transition: all 0.25s;
-               &:hover{
-                    background-color: #fff;
-                    color: #587E8C;
-                    cursor: pointer;
-               }
+               cursor: default;
+              //  &:hover{
+              //       background-color: #fff;
+              //       color: #587E8C;
+              //       cursor: pointer;
+              //  }
            }
        }
     }
