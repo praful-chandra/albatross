@@ -397,4 +397,44 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.clients {
+  margin: 5rem auto;
+}
+
+.clients-title {
+  font-size: 7rem;
+  color: #234867;
+  font-family: "Righteous", cursive;
+  margin: 4rem 0;
+}
+
+.clients-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients-item {
+  background-color: #fff;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.clients-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-size: auto;
+}
 /*# sourceMappingURL=root.css.map */
