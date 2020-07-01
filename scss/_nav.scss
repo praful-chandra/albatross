@@ -1,0 +1,92 @@
+.nav {
+  height: 8rem;
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 1rem;
+  font-family: "Righteous", cursive;
+  &-logo {
+    width: 20%;
+  }
+  &-links {
+    & ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      & li {
+        font-size: 2.3rem;
+        margin: 0 3rem;
+        color: $accentFont;
+      }
+    }
+  }
+
+  &-cta {
+    background-color: $ctaBg;
+    height: 100%;
+    width: 17rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: "Righteous", cursive;
+    font-size: 2rem;
+    padding: 0 2rem;
+    cursor: pointer;
+  }
+}
+
+
+.subnav{
+    background-color: #587E8C;
+    & ul{
+        display: flex;
+        list-style: none;
+        font-size: 2rem;
+        color: #fff;
+        width: 100%;
+        align-items: center;
+        justify-content: space-evenly;
+  font-family: "Righteous", cursive;
+
+  & li{
+    padding: 1rem 0;
+      position: relative;
+      cursor: pointer;
+      &:hover{
+          &>div{
+              display: flex;
+              z-index: 100;
+          }
+      }
+  }
+    }
+
+    &-extend{
+        display: none;
+        position: absolute;
+       left: 0;
+       top: 4rem;
+       background-color: #587e8c96;
+       border-radius: 5px;
+       padding: 2rem;
+        width: max-content;
+
+       & ul{
+           flex-direction: column;
+           align-items: flex-start;
+           margin: 0 1rem;
+           & li{
+               border-bottom: 1px solid;
+               width: 100%;
+               margin: 0.5rem 0;
+               transition: all 0.25s;
+               &:hover{
+                    background-color: #fff;
+                    color: #587E8C;
+                    cursor: pointer;
+               }
+           }
+       }
+    }
+}

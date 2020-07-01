@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,5 +8,135 @@
 
 html {
   font-size: 62.4%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav {
+  height: 8rem;
+  background-color: #f4f4f4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 1rem;
+  font-family: "Righteous", cursive;
+}
+
+.nav-logo {
+  width: 20%;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-links ul li {
+  font-size: 2.3rem;
+  margin: 0 3rem;
+  color: #234867;
+}
+
+.nav-cta {
+  background-color: #C14D2E;
+  height: 100%;
+  width: 17rem;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  padding: 0 2rem;
+  cursor: pointer;
+}
+
+.subnav {
+  background-color: #587E8C;
+}
+
+.subnav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  color: #fff;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-family: "Righteous", cursive;
+}
+
+.subnav ul li {
+  padding: 1rem 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.subnav ul li:hover > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+}
+
+.subnav-extend {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 4rem;
+  background-color: #587e8c96;
+  border-radius: 5px;
+  padding: 2rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.subnav-extend ul {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: 0 1rem;
+}
+
+.subnav-extend ul li {
+  border-bottom: 1px solid;
+  width: 100%;
+  margin: 0.5rem 0;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+.subnav-extend ul li:hover {
+  background-color: #fff;
+  color: #587E8C;
+  cursor: pointer;
 }
 /*# sourceMappingURL=root.css.map */
