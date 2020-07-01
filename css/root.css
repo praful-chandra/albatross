@@ -333,10 +333,68 @@ body {
 .banner-text {
   color: #fff;
   font-family: 'Permanent Marker', cursive;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 .banner-1 {
   background-image: url("/assets/banner-1.png");
+}
+
+.banner-2 {
+  background-image: url("/assets/banner-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.printing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.printing-left {
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  width: 40%;
+}
+
+.printing-left-title {
+  color: #234867;
+  font-size: 6rem;
+  margin: 5rem 0;
+}
+
+.printing-left-desc {
+  font-size: 2rem;
+  color: #838383;
+}
+
+.printing-right {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.printing-right-item {
+  width: 20rem;
+  height: 20rem;
+  background-color: green;
+  margin: 2rem;
+}
+
+.printing-right-item img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=root.css.map */
