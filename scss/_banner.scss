@@ -1,0 +1,14 @@
+.banner{
+    width: 100%;
+    height: 51rem;
+    display: flex;
+    align-items: center;
+    &-text{
+        color: #fff;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 10rem;
+    }
+    &-1{
+        background-image: url("/assets/banner-1.png");
+    }
+}

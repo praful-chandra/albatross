@@ -18,6 +18,35 @@
         //    animation: slider 0.5s  ease;
         }
     }
+
+    &-infocons{
+      
+        padding: 3rem 0;
+        background-color: #fff;
+        &>div{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;  
+            text-align: center;
+            font-size: 2.7rem;
+            color: $accentFont;
+            font-family: 'Passion One', cursive;
+        }
+        &-item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 17rem;
+            margin: 0 2rem;
+            & img{
+                width: 10rem;
+                height: 10rem;
+            }
+        
+        }
+    }
 }
 
 @keyframes slider{

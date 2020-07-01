@@ -13,8 +13,16 @@ a{
     color: inherit;
 }
 
+body{
+    background-color: #f4f4f4;
+}
+
 .hidden{
     display: none;
 }
-
+.center{
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
 @import "index";
