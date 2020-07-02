@@ -1,7 +1,7 @@
 .hero{
     &-slider{
         &-wrapper{
-            // overflow: hidden;
+         overflow: hidden;
         }
         width: 100vw;
         height: 60vh;
@@ -23,7 +23,7 @@
                 height: 42rem;
             }
             &-1{
-                background: linear-gradient(to right,#1CB5E0, #000046);
+                background: linear-gradient(to right, #000046,#1CB5E0);   
             }
             &-2{
                 background: linear-gradient(to right,#FFBD00, #FFC92C ,#F5D36C);
@@ -82,3 +82,14 @@
         opacity: 1;
     }
 }
+
+//*----------------------------RESPONSIVE--------------------------------
+@media only screen and (max-width:550px){
+
+    .hero-slider-item{
+        flex-direction: column-reverse;
+    }
+
+}
+
+//*----------------------------RESPONSIVE--------------------------------

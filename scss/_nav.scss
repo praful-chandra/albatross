@@ -99,3 +99,18 @@
        }
     }
 }
+
+//*----------------------------RESPONSIVE--------------------------------
+@media only screen and (max-width:550px){
+  .subnav{
+    display: none;
+  }
+  .nav{
+    height: 13rem;
+  }
+  .nav-logo{
+    width: 50%;
+  }
+}
+
+//*----------------------------RESPONSIVE--------------------------------

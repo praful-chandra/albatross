@@ -29,3 +29,17 @@
     }
   }
 }
+
+
+
+//*------------------------RESPONSIVE-------------------------
+
+@media only screen and (max-width:550px){
+  .clients{
+    &-title{
+      text-align: center;
+    }
+  }
+}
+
+//*------------------------RESPONSIVE-------------------------

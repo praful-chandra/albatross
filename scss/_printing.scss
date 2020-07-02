@@ -36,3 +36,25 @@
         }
     }
 }
+
+//*----------------------------RESPONSIVE--------------------------------
+@media only screen and (max-width:550px){
+    .printing{
+        flex-direction: column;
+        &-left,&-right{
+            width: 100%;
+        }
+
+        &-left-desc{
+            font-size: 3rem;
+        }
+
+        &-right{
+            justify-content: center;
+            align-items: center;
+        }
+    }
+   
+}
+
+//*----------------------------RESPONSIVE--------------------------------
