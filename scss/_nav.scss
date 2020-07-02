@@ -26,13 +26,14 @@
     background-color: $ctaBg;
     height: 100%;
     width: 17rem;
-    border: none;
-    outline: none;
+
     color: #fff;
     font-family: "Righteous", cursive;
     font-size: 2rem;
-    padding: 0 2rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
