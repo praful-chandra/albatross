@@ -199,7 +199,7 @@ body {
 .hero-slider-item-title {
   color: #fff;
   font-size: 6rem;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
 }
 
 .hero-slider-item img {
@@ -208,18 +208,22 @@ body {
 }
 
 .hero-slider-item-1 {
-  background: -webkit-gradient(linear, left top, right top, from(#000046), to(#1CB5E0));
-  background: linear-gradient(to right, #000046, #1CB5E0);
+  background-image: url("/assets/slider-img-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-slider-item-2 {
-  background: -webkit-gradient(linear, left top, right top, from(#FFBD00), color-stop(#FFC92C), to(#F5D36C));
-  background: linear-gradient(to right, #FFBD00, #FFC92C, #F5D36C);
+  background-image: url("/assets/slider-img-5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-slider-item-3 {
-  background: -webkit-gradient(linear, left top, right top, from(#9900FF), color-stop(#2CA4FF), to(#6CD9F5));
-  background: linear-gradient(to right, #9900FF, #2CA4FF, #6CD9F5);
+  background: -webkit-gradient(linear, left top, right top, from(#9900ff), color-stop(#2ca4ff), to(#6cd9f5));
+  background: linear-gradient(to right, #9900ff, #2ca4ff, #6cd9f5);
 }
 
 .hero-infocons {
@@ -242,7 +246,7 @@ body {
   text-align: center;
   font-size: 2.7rem;
   color: #234867;
-  font-family: 'Passion One', cursive;
+  font-family: "Passion One", cursive;
 }
 
 .hero-infocons-item {
